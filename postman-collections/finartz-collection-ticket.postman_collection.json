@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "a670b1c7-a0e7-4ce5-bf82-7b3be2168a95",
+		"name": "finartz-collection-ticket",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "buyTicket",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"creditCard\" : \"123/45678912/33456\",\r\n    \"numOfSeats\": \"100\",\r\n    \"passengerName\":\"Hakan\",\r\n    \"passengerSurname\":\"Gürbüz\",\r\n    \"flightId\":\"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/tickets",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tickets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteTicketById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/tickets/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tickets",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findTicketById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/tickets/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tickets",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
