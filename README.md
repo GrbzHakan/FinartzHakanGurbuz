@@ -1,4 +1,4 @@
-﻿# Finartz Codecase - Hakan Gürbüz
+
 
 This repository contains Flight Booking Api for Finartz's case study.
 
