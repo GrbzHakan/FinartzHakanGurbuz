@@ -1,7 +1,5 @@
 
 
-This repository contains Flight Booking Api for Finartz's case study.
-
 ## About Project
 This api is an online flight booking which operates only on internet.
 Main target of api is buy flight ticket and doing some bussiness logic which are in
